@@ -17,7 +17,7 @@ We adopted the following procedure:
 	
 
 ### Resources
-- Data Source: crypto_data.csv ( Retrived from CryptoCompare :   , 
+- Data Source: crypto_data.csv ( Retrived from CryptoCompare : https://min-api.cryptocompare.com/data/all/coinlist   , 
 - Software: Python 3.7 and accompanying Anaconda package, Conda 4.8.4, Jupyter Notebook
 
 ## Random Over Sampler model:

@@ -2,7 +2,7 @@
   	
 ---
 ## Overview of the project: 
-<p align="justify">The purpose of the project to analysis for taking decision to get into cryptocurrencies market. Since there were no known output for that market, unsupervised machine learning model has been used for the analysis. Steps were followed for the analysis : process data, making cluster, reduce the dimensions, and also reduce the principal components using PCA.
+<p align="justify">The purpose of the project to analysis for taking decision to get into cryptocurrencies market. Since there were no known output for that market, unsupervised machine learning model has been used for the analysis. Steps were followed for the analysis : process data, clustering, reducing the dimensions, reducing the principal components using PCA.
 . <p>
 	
 ---
@@ -29,13 +29,13 @@
 #### Visualizing Cryptocurrencies Results - 3D-Scatter with Clusters :
 	
 <p align="center">
-  <img width="200" src=https://github.com/sharifbhuiyan/Cryptocurrencies/blob/main/Resources/3D-Scatter.png
+  <img width="600" src=https://github.com/sharifbhuiyan/Cryptocurrencies/blob/main/Resources/3D-Scatter.png
 </p>  
 		
-#### Table with tradable cryptocurrencies :
+#### A Table of tradable cryptocurrencies :
 
 <p align="center">	
-  <img width="600" src=https://github.com/sharifbhuiyan/Cryptocurrencies/blob/main/Resources/Tradable_crypto.png
+  <img width="500" src=https://github.com/sharifbhuiyan/Cryptocurrencies/blob/main/Resources/Tradable_crypto.png
 </p>  
 	
 
@@ -43,10 +43,10 @@
 #### A scatter plot for TotalCoinMined vs TotalCoinSupply:
 	
 <p align="center">
-  <img width="400" src=https://github.com/sharifbhuiyan/Cryptocurrencies/blob/main/Resources/scatter%20plot.png
+  <img width="600" src=https://github.com/sharifbhuiyan/Cryptocurrencies/blob/main/Resources/scatter%20plot.png
 </p>  
 	
 
 ### Summary
 
-- We have identified the classification of 532 cryptocurrencies based on similarities of their features.
+-  The total number of tradable cryptocurrencies is 532.

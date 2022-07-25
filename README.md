@@ -10,14 +10,14 @@ We adopted the following procedure:
 
 <p align="justify">This project consists of four technical analysis deliverables. <p>
 
-- Deliverable 1: Use Resampling Models to Predict Credit Risk
-- Deliverable 2: Use the SMOTEENN algorithm to Predict Credit Risk
-- Deliverable 3: Use Ensemble Classifiers to Predict Credit Risk
-- Deliverable 4: A Written Report on the Credit Risk Analysis
+- Deliverable 1: Preprocessing the Data for PCA
+- Deliverable 2: Reducing Data Dimensions Using PCA
+- Deliverable 3: Clustering Cryptocurrencies Using K-means
+- Deliverable 4: Visualizing Cryptocurrencies Results
 	
 
 ### Resources
-- Data Source: LoanStats_2019Q1.csv
+- Data Source: crypto_data.csv ( Retrived from CryptoCompare :   , 
 - Software: Python 3.7 and accompanying Anaconda package, Conda 4.8.4, Jupyter Notebook
 
 ## Random Over Sampler model:
@@ -56,11 +56,6 @@ We adopted the following procedure:
 
 </p>
 
-- Imbalanced classification report
-		
-<p align="center">
-  <img width="600" src=https://github.com/sharifbhuiyan/Credit_Risk_Analysis/blob/main/Resources/EEC3.png
-</p>  
-	
+
 
 - The balanced accuracy score is 93%. The high_risk precision is about 7% only with 91% sensitivity which makes a F1 of 14% only. Low_risk precision is almost 100% with a sensitivity of 94%.

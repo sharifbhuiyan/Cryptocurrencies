@@ -2,8 +2,7 @@
   	
 ---
 ## Overview of the project: 
-<p align="justify">In this project, we use Python to build and evaluate several machine learning models to predict credit risk.
-We adopted the following procedure:
+<p align="justify">The purpose of the project to analysis for taking decision to get into cryptocurrencies market. Since there were no known output for that market, unsupervised machine learning model has been used for the analysis. Steps were followed for the analysis : process data, making cluster, reduce the dimensions, and also reduce the principal components using PCA.
 . <p>
 	
 ---
@@ -17,45 +16,37 @@ We adopted the following procedure:
 	
 
 ### Resources
-- Data Source: crypto_data.csv ( Retrived from CryptoCompare : https://min-api.cryptocompare.com/data/all/coinlist   , 
+- Data Source: crypto_data.csv (Retrived from [ CryptoCompare ]( https://min-api.cryptocompare.com/data/all/coinlist)) 
 - Software: Python 3.7 and accompanying Anaconda package, Conda 4.8.4, Jupyter Notebook
 
-## Random Over Sampler model:
+#### Clustering Cryptocurrencies using K-Means - Elbow Curve :
 	
 <p align="center">
   <img width="600" src=https://github.com/sharifbhuiyan/Cryptocurrencies/blob/main/Resources/Elbow_Curve.png
 </p>  
 	
 
-- Calculation of the confusion matrix.
+#### Visualizing Cryptocurrencies Results - 3D-Scatter with Clusters :
 	
 <p align="center">
   <img width="200" src=https://github.com/sharifbhuiyan/Cryptocurrencies/blob/main/Resources/3D-Scatter.png
 </p>  
 		
-- Imbalanced classification report
+#### Table with tradable cryptocurrencies :
 
 <p align="center">	
   <img width="600" src=https://github.com/sharifbhuiyan/Cryptocurrencies/blob/main/Resources/Tradable_crypto.png
 </p>  
 	
 
-- The balanced accuracy score is 62%. The high_risk precision is about 1% only with 60% sensitivity which makes a F1 of 2% only. Low_risk precision is almost 100% with a sensitivity of 68%.
-
 	
-	
-	
-## SMOTE model:
+#### A scatter plot for TotalCoinMined vs TotalCoinSupply:
 	
 <p align="center">
   <img width="400" src=https://github.com/sharifbhuiyan/Cryptocurrencies/blob/main/Resources/scatter%20plot.png
 </p>  
 	
-- Calculation of the confusion matrix.
 
+### Summary
 
-</p>
-
-
-
-- The balanced accuracy score is 93%. The high_risk precision is about 7% only with 91% sensitivity which makes a F1 of 14% only. Low_risk precision is almost 100% with a sensitivity of 94%.
+- We have identified the classification of 532 cryptocurrencies based on similarities of their features.
